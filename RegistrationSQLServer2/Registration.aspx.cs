@@ -29,12 +29,17 @@ namespace RegistrationSQLServer2
                 userInfo.Country = Server.HtmlEncode(countryTextBox.Text);
 
                 //this.Response.Redirect("RegistrationResuslt.aspx");
-                if (DBLayer.DBUtilities.InsertUserInformation(userInfo) == 1)
+                if (DBLayer.DBUtilities.UpdateUserInformationById(userInfo) == 1)
                     this.LblResultMessage.Text = "The User Information was successfuly inserted to the  db table";
                 else
                     this.LblResultMessage.Text = "there is an error occured on inserting the user info";
 
             }
+        }
+
+        protected void UpdateInfoButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

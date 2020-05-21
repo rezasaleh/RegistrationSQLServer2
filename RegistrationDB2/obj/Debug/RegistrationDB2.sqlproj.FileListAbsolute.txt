@@ -1,9 +1,10 @@
 C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\bin\Debug\RegistrationDB2.dacpac
 C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\bin\Debug\RegistrationDB2.dll
 C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\bin\Debug\RegistrationDB2.pdb
+C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\obj\Debug\RegistrationDB2.dll
+C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\obj\Debug\RegistrationDB2.pdb
+C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\obj\Debug\RegistrationDB2.sqlprojAssemblyReference.cache
 C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\obj\Debug\Model.xml
 C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\obj\Debug\refactor.xml
 C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\obj\Debug\postdeploy.sql
 C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\obj\Debug\predeploy.sql
-C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\obj\Debug\RegistrationDB2.dll
-C:\Users\maral\source\repos\RegistrationSQLServer2\RegistrationDB2\obj\Debug\RegistrationDB2.pdb

@@ -70,12 +70,17 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
-                <br />
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>
-                        <asp:Button ID="enterInfoButton" runat="server" Text="Enter user information" OnClick="EnterInfoButton_OnClick" /></td>
-                </tr>
+                <caption>
+                    <br />
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>
+                            <asp:Button ID="enterInfoButton" runat="server" OnClick="EnterInfoButton_OnClick" Text="Enter user information" />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:Button ID="updateInfoButton" runat="server" OnClick="UpdateInfoButton_Click" Text="Update user information" Width="172px" />
+                        </td>
+                    </tr>
+                </caption>
             </table>
 
             <asp:Label ID="LblResultMessage" runat="server"  ForeColor="Red" ></asp:Label>

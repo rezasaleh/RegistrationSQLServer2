@@ -1,0 +1,9 @@
+C:\Users\maral\source\repos\RegistrationSQLServer2\PetStoreDB\bin\Debug\PetStoreDB.dacpac
+C:\Users\maral\source\repos\RegistrationSQLServer2\PetStoreDB\bin\Debug\PetStoreDB.dll
+C:\Users\maral\source\repos\RegistrationSQLServer2\PetStoreDB\bin\Debug\PetStoreDB.pdb
+C:\Users\maral\source\repos\RegistrationSQLServer2\PetStoreDB\obj\Debug\Model.xml
+C:\Users\maral\source\repos\RegistrationSQLServer2\PetStoreDB\obj\Debug\refactor.xml
+C:\Users\maral\source\repos\RegistrationSQLServer2\PetStoreDB\obj\Debug\postdeploy.sql
+C:\Users\maral\source\repos\RegistrationSQLServer2\PetStoreDB\obj\Debug\predeploy.sql
+C:\Users\maral\source\repos\RegistrationSQLServer2\PetStoreDB\obj\Debug\PetStoreDB.dll
+C:\Users\maral\source\repos\RegistrationSQLServer2\PetStoreDB\obj\Debug\PetStoreDB.pdb

@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 
 namespace RegistrationSQLServer2.DBLayer
 {
@@ -17,7 +14,7 @@ namespace RegistrationSQLServer2.DBLayer
 
         }
 
-        public static int InsertUserInformation(BusinessLayer.UserInformation ui)
+        public static int UpdateUserInformationById(BusinessLayer.UserInformation ui)
         {
 
             int result;
@@ -39,6 +36,8 @@ namespace RegistrationSQLServer2.DBLayer
             return result;
 
         }
+
+      
 
         public static BusinessLayer.UserInformation SelectUserInformationById(int userId)
         {
@@ -80,6 +79,28 @@ namespace RegistrationSQLServer2.DBLayer
             {
                 String sql = $"Update UserInformation Set FirstName='{ui.FirstName}',LastName='{ui.LastName}',Address='{ui.Address}',City='{ui.City}',Province='{ui.Province}',PostalCode='{ui.PostalCode}',Country='{ui.Country}' Where Id = {userId}";
 
+                using (SqlCommand command = new SqlCommand(sql, cnn))
+                {
+                    cnn.Open();
+
+                    command.CommandType = System.Data.CommandType.Text;
+                    command.CommandText = sql;
+                    result = command.ExecuteNonQuery();
+                }
+            }
+
+            return result;
+        }
+
+
+
+        public static int DeleteUserInformationById(int userId)
+        {
+            int result;
+
+            using (SqlConnection cnn = GetSqlConnection())
+            {
+                String sql = $"Delete from  UserInformation Where Id = {userId}";
                 using (SqlCommand command = new SqlCommand(sql, cnn))
                 {
                     cnn.Open();
